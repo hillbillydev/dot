@@ -1,0 +1,30 @@
+tap 'homebrew/cask'
+tap 'homebrew/cask-fonts'
+tap 'homebrew/bundle'
+tap 'aws/tap'
+
+brew 'git'
+brew 'go'
+brew 'n'
+brew 'pyenv'
+brew 'mas'
+brew 'n'
+brew 'neovim'
+brew 'zsh'
+brew 'tmux'
+brew 'jq'
+
+cask 'docker'
+cask 'brave-browser'
+cask '1password'
+cask 'the-unarchiver'
+cask 'rectangle'
+cask 'discord'
+cask 'kindle'
+cask 'surfshark'
+cask 'spotify'
+cask 'alacritty'
+
+cask 'font-iosevka'
+
+mas 'Xcode', id: 497799835
