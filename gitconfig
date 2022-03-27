@@ -1,0 +1,9 @@
+[alias]
+  amend = "!git commit --amend --no-edit"
+[github]
+  user = hillbillydev
+[user]
+  name = Marcus Karlsson
+  email = "hillbillydev@gmail.com"
+[core]
+  editor = vim
