@@ -17,7 +17,7 @@ call plug#begin('~/.vim/bundle')
   Plug 'tpope/vim-vinegar'
   Plug 'tpope/vim-rhubarb'
   Plug 'ctrlpvim/ctrlp.vim'
-  Plug 'arcticicestudio/nord-vim'
+  Plug 'mjlbach/onedark.nvim'
   Plug 'nvim-treesitter/nvim-treesitter'
 call plug#end()
 
@@ -39,7 +39,7 @@ set grepformat=%f:%l:%c:%m
 
 abbrev W w
 
-colorscheme nord
+colorscheme onedark
 
 hi ExtraWhitespace ctermbg=darkgreen guibg=lightgreen
 match ExtraWhitespace /\s\+\%#\@<!$/
