@@ -11,13 +11,13 @@ call plug#begin('~/.vim/bundle')
   Plug 'tpope/vim-sensible'
   Plug 'tpope/vim-commentary'
   Plug 'tpope/vim-fugitive'
-  Plug 'tpope/vim-sleuth'
   Plug 'tpope/vim-unimpaired'
   Plug 'tpope/vim-sensible'
   Plug 'tpope/vim-vinegar'
   Plug 'tpope/vim-rhubarb'
   Plug 'ctrlpvim/ctrlp.vim'
   Plug 'arcticicestudio/nord-vim'
+  Plug 'nvim-treesitter/nvim-treesitter'
 call plug#end()
 
 set termguicolors
@@ -57,3 +57,11 @@ let g:lsc_server_commands = {
  \}
 
 autocmd QuickFixCmdPost [^l]* cwindow
+
+
+lua << EOF
+  require('nvim-treesitter.configs').setup {
+    highlight = { enable = true },
+    indent = { enable = true },
+  }
+EOF
