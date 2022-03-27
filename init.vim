@@ -7,6 +7,7 @@ endif
 call plug#begin('~/.vim/bundle')
   Plug 'natebosch/vim-lsc'
   Plug 'romainl/vim-cool'
+  Plug 'romainl/vim-qf'
   Plug 'tpope/vim-vinegar'
   Plug 'tpope/vim-sensible'
   Plug 'tpope/vim-commentary'
@@ -33,6 +34,9 @@ set undodir=~/undodir
 set undofile
 set nowrap
 set wildignore+=*/tmp/*,*.so,*.swp,*.zi
+set grepprg=rg\ --vimgrep\ $*
+set grepformat=%f:%l:%c:%m
+
 abbrev W w
 
 colorscheme nord
