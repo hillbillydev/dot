@@ -15,4 +15,4 @@ export PATH="$HOME/.local/bin:$PATH"
 
 export EDITOR="nvim"
 
-export MYVIMRC="~/.vimrc"
+export MYVIMRC="~/.config/nvim/init.vim"
