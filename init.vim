@@ -58,6 +58,7 @@ let g:lsc_server_commands = {
   \},
   \ "javascript": "typescript-language-server --stdio",
   \ "typescript": "typescript-language-server --stdio",
+  \ "python": "pyls",
  \}
 
 autocmd QuickFixCmdPost [^l]* cwindow
