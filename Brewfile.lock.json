@@ -2,16 +2,16 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "60208d8c201ca842a3b52ed83c3e52c7c5dbfc83"
+        "revision": "e01d3af6f8ea88ebf803ca61e85bbc42dc64aab4"
       },
       "homebrew/cask-fonts": {
-        "revision": "8a4081241faa95481f158132756ba452702c2e47"
+        "revision": "262209f9a532621dfefd543f347ccee846d93932"
       },
       "homebrew/bundle": {
         "revision": "aac61c6fa4be93e54226a6eb78ddbbf676cda729"
       },
       "aws/tap": {
-        "revision": "b26fa7c8d32722695c33ffe4e766a039420e7bbf"
+        "revision": "376a5e29071f74aa3378e9944ffe4f35baaffb81"
       }
     },
     "brew": {
@@ -385,7 +385,7 @@
         }
       },
       "brave-browser": {
-        "version": "1.36.119.0,136.119",
+        "version": "1.36.122.0,136.122",
         "options": {
           "full_name": "brave-browser"
         }
@@ -415,7 +415,7 @@
         }
       },
       "kindle": {
-        "version": "1.34.63102",
+        "version": "1.35.64250",
         "options": {
           "full_name": "kindle"
         }
@@ -439,9 +439,15 @@
         }
       },
       "font-iosevka": {
-        "version": "15.0.3",
+        "version": "15.1.0",
         "options": {
           "full_name": "font-iosevka"
+        }
+      },
+      "amethyst": {
+        "version": "0.15.6",
+        "options": {
+          "full_name": "amethyst"
         }
       }
     },
@@ -455,9 +461,9 @@
   "system": {
     "macos": {
       "monterey": {
-        "HOMEBREW_VERSION": "3.4.3",
+        "HOMEBREW_VERSION": "3.4.4",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "5889b4a3e603c66293db411c7f64cd7a63730284",
+        "Homebrew/homebrew-core": "23bb781b370b23eef77f8d261330c5f9583ac3ea",
         "CLT": "13.3.0.0.1.1645755326",
         "Xcode": "13.3",
         "macOS": "12.2.1"
