@@ -11,7 +11,6 @@ brew 'mas'
 brew 'n'
 brew 'neovim'
 brew 'zsh'
-brew 'tmux'
 brew 'jq'
 
 cask 'docker'
@@ -23,7 +22,6 @@ cask 'discord'
 cask 'kindle'
 cask 'surfshark'
 cask 'spotify'
-cask 'alacritty'
 
 cask 'font-iosevka'
 

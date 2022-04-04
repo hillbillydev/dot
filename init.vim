@@ -8,15 +8,12 @@ call plug#begin('~/.vim/bundle')
   Plug 'natebosch/vim-lsc'
   Plug 'romainl/vim-cool'
   Plug 'romainl/vim-qf'
-  Plug 'tpope/vim-vinegar'
   Plug 'tpope/vim-sensible'
-  Plug 'tpope/vim-commentary'
-  Plug 'tpope/vim-fugitive'
   Plug 'tpope/vim-unimpaired'
   Plug 'tpope/vim-sensible'
   Plug 'tpope/vim-vinegar'
-  Plug 'tpope/vim-rhubarb'
   Plug 'ctrlpvim/ctrlp.vim'
+  Plug 'dyng/ctrlsf.vim'
   Plug 'mjlbach/onedark.nvim'
   Plug 'nvim-treesitter/nvim-treesitter'
 call plug#end()
@@ -34,8 +31,6 @@ set undodir=~/undodir
 set undofile
 set nowrap
 set wildignore+=*/tmp/*,*.so,*.swp,*.zi
-set grepprg=rg\ --vimgrep\ $*
-set grepformat=%f:%l:%c:%m
 
 abbrev W w
 
@@ -49,7 +44,7 @@ map <space> <leader>
 nnoremap <leader>gj :diffget //3<CR>
 nnoremap <leader>gf :diffget //2<CR>
 
-let g:lsc_auto_map = v:true
+let g:lsc_auto_map = {'defaults': v:true, 'PreviousReference': ''}
 let g:lsc_server_commands = {
   \ "go": {
   \   "command": "gopls serve",
