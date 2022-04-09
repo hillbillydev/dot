@@ -5,7 +5,6 @@ if empty(glob(data_dir . '/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.vim/bundle')
-  Plug 'natebosch/vim-lsc'
   Plug 'romainl/vim-cool'
   Plug 'romainl/vim-qf'
   Plug 'tpope/vim-sensible'
@@ -14,8 +13,6 @@ call plug#begin('~/.vim/bundle')
   Plug 'tpope/vim-vinegar'
   Plug 'ctrlpvim/ctrlp.vim'
   Plug 'dyng/ctrlsf.vim'
-  Plug 'mjlbach/onedark.nvim'
-  Plug 'nvim-treesitter/nvim-treesitter'
 call plug#end()
 
 set termguicolors
@@ -34,7 +31,7 @@ set wildignore+=*/tmp/*,*.so,*.swp,*.zi
 
 abbrev W w
 
-colorscheme onedark
+colorscheme default
 
 hi ExtraWhitespace ctermbg=darkgreen guibg=lightgreen
 match ExtraWhitespace /\s\+\%#\@<!$/
@@ -44,24 +41,4 @@ map <space> <leader>
 nnoremap <leader>gj :diffget //3<CR>
 nnoremap <leader>gf :diffget //2<CR>
 
-let g:lsc_auto_map = {'defaults': v:true, 'PreviousReference': ''}
-let g:lsc_server_commands = {
-  \ "go": {
-  \   "command": "gopls serve",
-  \   "log_level": -1,
-  \   "suppress_stderr": v:true
-  \},
-  \ "javascript": "typescript-language-server --stdio",
-  \ "typescript": "typescript-language-server --stdio",
-  \ "python": "pyls",
- \}
-
 autocmd QuickFixCmdPost [^l]* cwindow
-
-
-lua << EOF
-  require('nvim-treesitter.configs').setup {
-    highlight = { enable = true },
-    indent = { enable = true },
-  }
-EOF
