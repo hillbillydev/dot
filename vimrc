@@ -1,18 +1,14 @@
-let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
-if empty(glob(data_dir . '/autoload/plug.vim'))
-  silent execute '!curl -fLo '.data_dir.'/autoload/plug.vim --create-dirs  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
-  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+if empty(glob('~/.vim/autoload/plug.vim'))
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 endif
 
 call plug#begin('~/.vim/bundle')
   Plug 'romainl/vim-cool'
   Plug 'romainl/vim-qf'
   Plug 'tpope/vim-sensible'
-  Plug 'tpope/vim-unimpaired'
-  Plug 'tpope/vim-sensible'
   Plug 'tpope/vim-vinegar'
   Plug 'ctrlpvim/ctrlp.vim'
-  Plug 'dyng/ctrlsf.vim'
 call plug#end()
 
 set termguicolors

@@ -13,6 +13,6 @@ export PATH="/usr/sbin:$PATH"
 export PATH="/Library/Apple/usr/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 
-export EDITOR="nvim"
+export EDITOR="code"
 
-export MYVIMRC="~/.config/nvim/init.vim"
+export MYVIMRC="~/.vimrc"

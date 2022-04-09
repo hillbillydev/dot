@@ -5,8 +5,6 @@ HISTFILE=~/.zsh_history
 HISTSIZE=30000
 SAVEHIST=30000
 
-alias vim="nvim"
-
 setopt BANG_HIST
 setopt EXTENDED_HISTORY
 setopt INC_APPEND_HISTORY
