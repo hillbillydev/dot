@@ -2,16 +2,16 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "e01d3af6f8ea88ebf803ca61e85bbc42dc64aab4"
+        "revision": "06a31f6a264c647603193eefac0cb9e66b36df18"
       },
       "homebrew/cask-fonts": {
-        "revision": "262209f9a532621dfefd543f347ccee846d93932"
+        "revision": "b74d4445bdcc70a6775d0aace16ba25d44b6b247"
       },
       "homebrew/bundle": {
-        "revision": "aac61c6fa4be93e54226a6eb78ddbbf676cda729"
+        "revision": "3588af94bd2422ec9b905f5b75f4f23926318f96"
       },
       "aws/tap": {
-        "revision": "376a5e29071f74aa3378e9944ffe4f35baaffb81"
+        "revision": "409af2175dcb6bf7520595ebfd85689d7b676158"
       }
     },
     "brew": {
@@ -385,7 +385,7 @@
         }
       },
       "brave-browser": {
-        "version": "1.36.122.0,136.122",
+        "version": "1.37.111.0,137.111",
         "options": {
           "full_name": "brave-browser"
         }
@@ -427,7 +427,7 @@
         }
       },
       "spotify": {
-        "version": "1.1.80.699,gc3dac750,7",
+        "version": "1.1.81.604,ccacfc8c,16",
         "options": {
           "full_name": "spotify"
         }
@@ -455,15 +455,27 @@
       "Xcode": {
         "id": "497799835",
         "version": "13.3"
+      },
+      "Streaks": {
+        "id": "963034692",
+        "version": "7.5.7"
+      },
+      "Pages": {
+        "id": "409201541",
+        "version": "12.0"
+      },
+      "Numbers": {
+        "id": "409203825",
+        "version": "12.0"
       }
     }
   },
   "system": {
     "macos": {
       "monterey": {
-        "HOMEBREW_VERSION": "3.4.4",
+        "HOMEBREW_VERSION": "3.4.5",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "23bb781b370b23eef77f8d261330c5f9583ac3ea",
+        "Homebrew/homebrew-core": "a42a2ca6491c304772961577f5008d13e4239b00",
         "CLT": "13.3.0.0.1.1645755326",
         "Xcode": "13.3",
         "macOS": "12.2.1"
