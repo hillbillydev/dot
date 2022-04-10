@@ -17,6 +17,8 @@ cask 'the-unarchiver'
 cask 'amethyst'
 cask 'discord'
 cask 'surfshark'
+cask 'visual-studio-code'
+cask 'steam'
 
 cask 'font-iosevka'
 
