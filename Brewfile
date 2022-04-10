@@ -23,6 +23,5 @@ cask 'steam'
 cask 'font-iosevka'
 
 mas 'Xcode', id: 497799835
-mas 'Streaks', id: 963034692
 mas 'Pages', id: 409201541
 mas 'Numbers', id: 409203825
