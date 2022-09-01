@@ -1,6 +1,8 @@
 export CLICOLOR=true
 export HISTORY_IGNORE="(ls *|cd *|pwd|exit|rm *)"
 
+export NVM_DIR=~/.nvm
+
 HISTFILE=~/.zsh_history
 HISTSIZE=30000
 SAVEHIST=30000
@@ -33,3 +35,5 @@ autoload -U promptinit && promptinit
 autoload -U colors && colors
 
 PROMPT="%{$fg[red]%}%1| %2~ %{$reset_color%}%# "
+
+source $(brew --prefix nvm)/nvm.sh

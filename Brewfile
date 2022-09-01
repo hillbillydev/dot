@@ -4,6 +4,7 @@ tap 'homebrew/bundle'
 
 brew 'go'
 brew 'firebase-cli'
+brew 'nvm'
 
 cask 'visual-studio-code'
 cask '1password'
