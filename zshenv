@@ -13,5 +13,3 @@ export PATH="/Library/Apple/usr/bin:$PATH"
 export PATH="$HOME/.local/bin:$PATH"
 
 export EDITOR="code"
-
-export MYVIMRC="~/.vimrc"
