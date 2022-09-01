@@ -6,7 +6,6 @@ brew 'git'
 brew 'go'
 brew 'n'
 brew 'pyenv'
-brew 'mas'
 brew 'n'
 brew 'zsh'
 
@@ -21,7 +20,3 @@ cask 'visual-studio-code'
 cask 'steam'
 
 cask 'font-iosevka'
-
-mas 'Xcode', id: 497799835
-mas 'Pages', id: 409201541
-mas 'Numbers', id: 409203825
