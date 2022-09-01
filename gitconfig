@@ -1,9 +1,31 @@
 [alias]
   amend = "!git commit --amend --no-edit"
+  co = checkout
+  ci = commit
+  br = branch
+[init]
+	defaultBranch = master
 [github]
   user = hillbillydev
 [user]
   name = Marcus Karlsson
   email = "hillbillydev@gmail.com"
 [core]
-  editor = vim
+  editor = code --wait
+  whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
+[diff]
+  tool = vscode
+[difftool "vscode"]
+  cmd = code --wait --diff $LOCAL $REMOTE
+[merge]
+  tool = vscode
+[mergetool "vscode"]
+  cmd = code --wait $MERGED
+[rebase]
+	autosquash = true
+[web]
+	browser = firefox
+[fetch]
+	prune = true
+[help]
+	autocorrect = 1
