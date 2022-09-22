@@ -12,7 +12,6 @@ brew "nvm"
 # Mac Apps
 cask "1password"
 cask "discord"
-cask "firefox"
 cask "rectangle"
 cask "sf-symbols"
 cask "temurin"
