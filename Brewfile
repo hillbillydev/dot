@@ -1,17 +1,31 @@
-tap 'homebrew/cask'
-tap 'homebrew/cask-fonts'
-tap 'homebrew/bundle'
+# Taps
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-drivers"
+tap "homebrew/core"
 
-brew 'go'
-brew 'firebase-cli'
-brew 'nvm'
+# Binaries
+brew "go"
+brew "mas"
+brew "nvm"
 
-cask 'visual-studio-code'
-cask '1password'
-cask 'rectangle'
-cask 'surfshark'
-cask 'firefox'
-cask 'chromium'
-cask 'firebase-admin'
+# Mac Apps
+cask "1password"
+cask "discord"
+cask "firefox"
+cask "rectangle"
+cask "sf-symbols"
+cask "temurin"
+cask "visual-studio-code"
 
-cask 'font-jetbrains-mono'
+mas "Developer", id: 640199958
+mas "Flashcard Hero", id: 650802274
+mas "Xcode", id: 497799835
+mas "Pages", id: 409201541
+mas "Numbers", id: 409203825
+
+# Safari Extensions
+mas "Ghostery – Privacy Ad Blocker", id: 1436953057
+mas "Super Agent", id: 1568262835
+mas "Vimari", id: 1480933944
+mas "Wipr", id: 1320666476
