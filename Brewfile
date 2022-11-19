@@ -18,7 +18,6 @@ cask "temurin"
 cask "visual-studio-code"
 
 mas "Developer", id: 640199958
-mas "Flashcard Hero", id: 650802274
 mas "Xcode", id: 497799835
 mas "Pages", id: 409201541
 mas "Numbers", id: 409203825
@@ -28,3 +27,4 @@ mas "Ghostery – Privacy Ad Blocker", id: 1436953057
 mas "Super Agent", id: 1568262835
 mas "Vimari", id: 1480933944
 mas "Wipr", id: 1320666476
+

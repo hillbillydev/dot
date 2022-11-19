@@ -38,3 +38,11 @@ Thumbs.db
 # Editor files #
 ################
 .vscode
+
+# XCode #
+
+**/xcuserdata/**
+
+## Xcode 8 and earlier
+*.xcscmblueprint
+*.xccheckout
