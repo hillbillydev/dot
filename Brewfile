@@ -7,6 +7,7 @@ tap "homebrew/core"
 # Binaries
 brew "go"
 brew "mas"
+brew "hugo"
 
 # Mac Apps
 cask "1password"
