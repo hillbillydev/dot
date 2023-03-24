@@ -18,6 +18,7 @@ cask "temurin"
 cask "firefox"
 cask "mochi"
 cask "visual-studio-code"
+cask "docker"
 
 mas "Developer", id: 640199958
 mas "Xcode", id: 497799835
