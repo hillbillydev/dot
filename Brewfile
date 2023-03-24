@@ -14,6 +14,7 @@ cask "discord"
 cask "rectangle"
 cask "temurin"
 cask "firefox"
+cask "mochi"
 cask "visual-studio-code"
 
 mas "Developer", id: 640199958

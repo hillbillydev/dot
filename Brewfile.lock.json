@@ -160,6 +160,12 @@
         "options": {
           "full_name": "visual-studio-code"
         }
+      },
+      "mochi": {
+        "version": "1.15.20",
+        "options": {
+          "full_name": "mochi"
+        }
       }
     },
     "mas": {
