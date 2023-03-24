@@ -8,6 +8,7 @@ tap "homebrew/core"
 brew "go"
 brew "mas"
 brew "hugo"
+brew "fnm"
 
 # Mac Apps
 cask "1password"
