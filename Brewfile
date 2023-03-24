@@ -7,13 +7,11 @@ tap "homebrew/core"
 # Binaries
 brew "go"
 brew "mas"
-brew "nvm"
 
 # Mac Apps
 cask "1password"
 cask "discord"
 cask "rectangle"
-cask "sf-symbols"
 cask "temurin"
 cask "visual-studio-code"
 
@@ -27,4 +25,3 @@ mas "Ghostery – Privacy Ad Blocker", id: 1436953057
 mas "Super Agent", id: 1568262835
 mas "Vimari", id: 1480933944
 mas "Wipr", id: 1320666476
-
