@@ -132,7 +132,7 @@
         }
       },
       "firefox": {
-        "version": "105.0",
+        "version": "111.0.1",
         "options": {
           "full_name": "firefox"
         }
@@ -183,8 +183,14 @@
         "id": "409203825",
         "version": "12.2.1"
       },
-      "Ghostery – Privacy Ad Blocker": null,
-      "Super Agent": null,
+      "Ghostery – Privacy Ad Blocker": {
+        "id": "1436953057",
+        "version": "10.0.5"
+      },
+      "Super Agent": {
+        "id": "1568262835",
+        "version": "2.9.0"
+      },
       "Vimari": {
         "id": "1480933944",
         "version": "2.1.1"

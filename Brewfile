@@ -13,6 +13,7 @@ cask "1password"
 cask "discord"
 cask "rectangle"
 cask "temurin"
+cask "firefox"
 cask "visual-studio-code"
 
 mas "Developer", id: 640199958
