@@ -7,7 +7,6 @@ tap "homebrew/core"
 # Binaries
 brew "go"
 brew "mas"
-brew "hugo"
 brew "fnm"
 
 # Mac Apps
