@@ -34,4 +34,5 @@ autoload -U colors && colors
 
 PROMPT="%{$fg[red]%}%1| %2~ %{$reset_color%}%# "
 
-eval "$(fnm env --use-on-cd)"
+
+# Load Angular CLI autocompletion.
