@@ -2,13 +2,13 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "20ac256630f057789be7f4dcadff9307d866e4fb"
+        "revision": "fc244e942f0aaa49843b9bf538e22da53ff59b79"
       },
       "homebrew/cask": {
         "revision": "1d61270beccb8648b2282cca0b7ae00a4f587fcc"
       },
       "homebrew/cask-drivers": {
-        "revision": "318d5798eeac7590ef8169251ab5d11bf4aa0659"
+        "revision": "d54e600c5a5306f8c6ef0f372a8eaecff267a6fc"
       },
       "homebrew/core": {
         "revision": "db371ec7510651e00ebfb242887aa6119b22199f"
@@ -208,7 +208,7 @@
     },
     "cask": {
       "1password": {
-        "version": "8.10.3",
+        "version": "8.10.4",
         "options": {
           "full_name": "1password"
         }
@@ -220,13 +220,13 @@
         }
       },
       "firefox": {
-        "version": "111.0.1",
+        "version": "112.0.1",
         "options": {
           "full_name": "firefox"
         }
       },
       "rectangle": {
-        "version": "0.67",
+        "version": "0.68",
         "options": {
           "full_name": "rectangle"
         }
@@ -238,13 +238,13 @@
         }
       },
       "temurin": {
-        "version": "20,36",
+        "version": "20.0.1,9",
         "options": {
           "full_name": "temurin"
         }
       },
       "visual-studio-code": {
-        "version": "1.77.1",
+        "version": "1.77.3",
         "options": {
           "full_name": "visual-studio-code"
         }
@@ -256,7 +256,7 @@
         }
       },
       "google-chrome": {
-        "version": "112.0.5615.49",
+        "version": "112.0.5615.137",
         "options": {
           "full_name": "google-chrome"
         }
@@ -271,6 +271,12 @@
         "version": "3.2.1-f3241b2b",
         "options": {
           "full_name": "github"
+        }
+      },
+      "tableplus": {
+        "version": "5.3.6,496",
+        "options": {
+          "full_name": "tableplus"
         }
       }
     },
@@ -297,7 +303,7 @@
       },
       "Ghostery – Privacy Ad Blocker": {
         "id": "1436953057",
-        "version": "10.0.6"
+        "version": "10.0.7"
       },
       "Super Agent": {
         "id": "1568262835",
@@ -309,7 +315,7 @@
       },
       "Wipr": {
         "id": "1320666476",
-        "version": "1.39"
+        "version": "1.40"
       }
     }
   },
@@ -324,12 +330,12 @@
         "macOS": "12.6"
       },
       "ventura": {
-        "HOMEBREW_VERSION": "4.0.11",
+        "HOMEBREW_VERSION": "4.0.14",
         "HOMEBREW_PREFIX": "/opt/homebrew",
         "Homebrew/homebrew-core": "api",
         "CLT": "",
         "Xcode": "14.3",
-        "macOS": "13.2.1"
+        "macOS": "13.3.1"
       }
     }
   }
