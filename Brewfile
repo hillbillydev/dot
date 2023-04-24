@@ -8,6 +8,7 @@ tap "homebrew/core"
 brew "go"
 brew "mas"
 brew "fnm"
+brew "planetscale/tap/pscale"
 
 # Mac Apps
 cask "1password"
