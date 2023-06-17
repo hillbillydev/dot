@@ -8,19 +8,16 @@ tap "homebrew/core"
 brew "go"
 brew "mas"
 brew "fnm"
-brew "planetscale/tap/pscale"
 
 # Mac Apps
 cask "1password"
 cask "discord"
 cask "rectangle"
 cask "temurin"
-cask "firefox"
 cask "google-chrome"
 cask "visual-studio-code"
 cask "docker"
-cask "github"
-cask "tableplus"
+
 
 mas "Developer", id: 640199958
 mas "Xcode", id: 497799835
