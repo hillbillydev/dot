@@ -10,7 +10,6 @@ brew "stow"
 brew "helix"
 
 cask "discord"
-cask "alacritty"
 cask "visual-studio-code"
 cask "docker"
 cask "wezterm"
