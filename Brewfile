@@ -1,29 +1,16 @@
-# Taps
 tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/cask-drivers"
-tap "homebrew/core"
 
-# Binaries
 brew "go"
-brew "mas"
+brew "fish"
+brew "tree"
+brew "lazygit"
 brew "fnm"
+brew "watchman"
+brew "stow"
+brew "helix"
 
-# Mac Apps
-cask "1password"
 cask "discord"
-cask "rectangle"
-cask "temurin"
-cask "google-chrome"
+cask "alacritty"
 cask "visual-studio-code"
 cask "docker"
-
-
-mas "Developer", id: 640199958
-mas "Xcode", id: 497799835
-mas "Pages", id: 409201541
-mas "Numbers", id: 409203825
-
-# Safari Extensions
-mas "Ghostery – Privacy Ad Blocker", id: 1436953057
-mas "Wipr", id: 1320666476
+cask "wezterm"
