@@ -1,5 +1,5 @@
 set -x GOPATH "$HOME/go"
-set -x EDITOR "code"
+set -x EDITOR hx
 
 set -gx PATH /usr/bin $PATH
 set -gx PATH /bin $PATH
@@ -12,9 +12,10 @@ set -gx PATH /usr/sbin $PATH
 set -gx PATH /Library/Apple/usr/bin $PATH
 set -gx PATH $HOME/.local/bin $PATH
 
-set --erase fish_greeting
+set -g fish_greeting ""
 
 alias ll='ls -la'
 alias g='git'
+alias lg='lazygit'
 
 eval "$(fnm env)"

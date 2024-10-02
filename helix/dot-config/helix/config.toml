@@ -1,3 +1,5 @@
-theme = "onedark"
+theme = "gruvbox_light_hard"
 
+[editor.file-picker]
+hidden = false
 

@@ -20,7 +20,7 @@ config.keys = {
   },
 }
 
-config.color_scheme = 'OneDark (base16)'
+config.color_scheme = 'Gruvbox light, hard (base16)'
 config.scrollback_lines = 15000
 config.enable_tab_bar = false
 config.window_padding = {
