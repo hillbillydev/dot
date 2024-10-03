@@ -12,6 +12,7 @@ brew "helix"
 brew "typescript-language-server"
 brew "tailwindcss-language-server"
 brew "vscode-langservers-extracted"
+brew "marksman"
 
 cask "discord"
 cask "visual-studio-code"
