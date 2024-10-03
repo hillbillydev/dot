@@ -20,7 +20,7 @@ config.keys = {
   },
 }
 
-config.color_scheme = 'One Dark (Gogh)'
+config.color_scheme = 'Gruvbox dark, medium (base16)'
 config.scrollback_lines = 15000
 config.enable_tab_bar = false
 -- config.window_background_opacity = 0.9
