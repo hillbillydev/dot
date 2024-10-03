@@ -1,4 +1,4 @@
-theme = "gruvbox_light_hard"
+theme = "zed_onedark"
 
 [editor.file-picker]
 hidden = false

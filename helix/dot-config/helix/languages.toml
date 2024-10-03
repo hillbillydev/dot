@@ -13,3 +13,8 @@ language-servers = [ "typescript-language-server", "tailwindcss-ls" ]
 [[language]]
 name = "tsx"
 language-servers = [ "typescript-language-server", "tailwindcss-ls" ]
+
+[[language]]
+name = "go"
+auto-format = true
+formatter = { command = "goimports" }

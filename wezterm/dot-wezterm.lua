@@ -20,9 +20,11 @@ config.keys = {
   },
 }
 
-config.color_scheme = 'Gruvbox light, hard (base16)'
+config.color_scheme = 'One Dark (Gogh)'
 config.scrollback_lines = 15000
 config.enable_tab_bar = false
+-- config.window_background_opacity = 0.9
+-- config.macos_window_background_blur = 10
 config.window_padding = {
   left = 10,
   right = 10,
