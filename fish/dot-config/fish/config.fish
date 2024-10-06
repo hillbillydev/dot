@@ -1,5 +1,5 @@
 set -x GOPATH "$HOME/go"
-set -x EDITOR hx
+set -x EDITOR code
 
 set -gx PATH /usr/bin $PATH
 set -gx PATH /bin $PATH
@@ -17,6 +17,5 @@ set -g fish_greeting ""
 
 alias ll='ls -la'
 alias g='git'
-alias lg='lazygit'
 
 eval "$(fnm env)"
