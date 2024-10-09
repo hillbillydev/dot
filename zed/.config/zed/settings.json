@@ -7,7 +7,7 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
-  "theme": "Atelier Sulphurpool Light",
+  "theme": "Ayu Dark",
   "assistant": {
     "default_model": {
       "provider": "copilot_chat",
@@ -24,7 +24,7 @@
   "git": {
     "git_gutter": "tracked_files",
     "inline_blame": {
-      "enabled": true
+      "enabled": false
     }
   },
   "terminal": {
@@ -33,4 +33,3 @@
     "blinking": "off"
   }
 }
-
