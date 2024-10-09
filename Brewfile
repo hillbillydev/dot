@@ -7,5 +7,5 @@ brew "watchman"
 brew "stow"
 
 cask "discord"
-cask "visual-studio-code"
 cask "docker"
+cask "zed"
