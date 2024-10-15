@@ -11,7 +11,6 @@ set -gx PATH /usr/local/bin $PATH
 set -gx PATH /usr/sbin $PATH
 set -gx PATH /Library/Apple/usr/bin $PATH
 set -gx PATH $HOME/.local/bin $PATH
-set -gx PATH $PATH:$(yarn global bin)
 
 set -g fish_greeting ""
 
