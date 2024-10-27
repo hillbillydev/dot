@@ -8,7 +8,7 @@ brew "stow"
 brew "ollama"
 brew "gpg"
 brew "pinentry-mac"
-brew "gitu"
+brew "lazygit"
 
 cask "discord"
 cask "google-chrome"
